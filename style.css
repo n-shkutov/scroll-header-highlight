@@ -1,0 +1,43 @@
+@import 'normalize.css';
+
+
+html, body {
+    font-family: Lora, serif;
+    font-size: 18px;
+
+    background-color: black;
+
+    height: 100vh;
+}
+
+h3 {
+    font-family: Lora, serif;
+    font-size: 3rem;
+    font-weight: 700;
+
+    color: rgb(82, 82, 82);
+
+    transition: color 400ms ease-in-out;
+}
+
+h3.active {
+    color: rgb(163, 241, 255);
+
+    transition: color 200ms ease-in-out;
+}
+
+.wrapper {
+    height: 500vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.container {
+    position: sticky;
+    top: 2rem;
+}
+
+.space {
+    height: 100vh;
+}
