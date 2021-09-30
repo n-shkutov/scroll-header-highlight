@@ -4,21 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel index.html --open",
+    "build": "parcel index.html --public-url ./"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/n-shkutov/scroll-header-highlight.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nikita Shkutov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/n-shkutov/scroll-header-highlight/issues"
   },
   "homepage": "https://github.com/n-shkutov/scroll-header-highlight#readme",
   "dependencies": {
-    "animejs": "^3.2.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
