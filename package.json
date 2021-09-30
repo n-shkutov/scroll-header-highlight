@@ -1,0 +1,28 @@
+{
+  "name": "scroll-header-highlight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-shkutov/scroll-header-highlight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-shkutov/scroll-header-highlight/issues"
+  },
+  "homepage": "https://github.com/n-shkutov/scroll-header-highlight#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "parcel-bundler": "^1.12.5",
+    "postcss-modules": "^4.2.2"
+  }
+}
