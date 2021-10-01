@@ -21,8 +21,6 @@ const scrollHandler = ({ currentTarget }) => {
 
     let nextIdx = Math.floor(scrollY / pxPart);
 
-    console.log(nextIdx)
-
     if (nextIdx < 0 || nextIdx + 1 > headers.length) {
 
         if (headerIdx !== null) headers[headerIdx].classList.remove('active');
